@@ -1,0 +1,85 @@
+Q-1
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+		      clrscr();
+		      printf("Name      : Aarchi\n");
+		      printf("Age       : 17\n");
+		      printf("Classes   : Red and White\n");
+		      getch();
+}
+
+Q-2
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	       clrscr();
+	       printf("--------\n");
+	       printf("|      |\n");
+	       printf("R      |\n");
+	       printf("N      |\n");
+	       printf("W      |\n");
+	       printf("|      |\n");
+	       printf("--------\n");
+	       getch();
+}
+
+Q-3
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	      clrscr();
+	      printf("*\n");
+	      printf("* *\n");
+	      printf("* * *\n");
+	      printf("* *\n");
+	      printf("*\n");
+	      getch();
+}
+
+Q-4
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+		    clrscr();
+		    printf("*\n");
+		    printf("*\n");
+		    printf("*\n");
+		    printf("*      * *       *\n");
+		    printf("*     *   *     *\n");
+		    printf("*    *     *   *\n");
+		    printf("*   *       * *\n");
+		    printf("*  *\n");
+		    printf("*\n");
+		    getch();
+}
+
+Q-5
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	      clrscr();
+	      printf(" * * *     *      *      *       *\n");
+	      printf("*     *    *      *      *       *\n");
+	      printf("*    *     * *    *      *       *\n");
+	      printf("* * *      *  *   *      *       *\n");
+	      printf("*    *     *   *  *      *   *   *\n");
+	      printf("*     *    *      *      *  * *  *\n");
+	      printf("*      *   *      *      *       *\n");
+	      getch();
+}
