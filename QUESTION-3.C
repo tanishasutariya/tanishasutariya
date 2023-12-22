@@ -1,21 +1,16 @@
 #include<stdio.h>
-
+#include<conio.h>
 
 main()
 {
-		 int i,j,s;
-		 
-		 for(i=5;i>=1;i--)
-		 {
-		   for(s=1;s<i;s++)
-		   {
-		     printf(" ");
-		   }
-		   for(j=i;j<=5;j++)
-		   {
-		     printf("%d",j);
-		   }
-		   printf("\n");
-		 }
-		 
+	int a=1,n;
+	clrscr();
+	printf("Enter any number : ");
+	scanf("%d",&n);
+	while (a<=n)
+	{
+	  printf("%d\t",a);
+	  a++;
+	}
+	getch();
 }
