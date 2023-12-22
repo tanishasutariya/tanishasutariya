@@ -3,17 +3,19 @@
 
 main()
 {
-	   int a=1,n;
-	   clrscr();
-	   printf("Enter value of n : ");
-	   scanf("%d",&n);
-	   while (n>=1)
-	   {
-	     if (n%2==1)
-	     {
-	       printf("%d\n",n);
-	     }
-	     n--;
-	   }
-	   getch();
+		 int i,j,s;
+		 clrscr();
+		 for(i=5;i>=1;i--)
+		 {
+		   for(s=1;s<i;s++)
+		   {
+		     printf(" ");
+		   }
+		   for(j=5;j>=i;j--)
+		   {
+		     printf("%d",j);
+		   }
+		   printf("\n");
+		 }
+		 getch();
 }
