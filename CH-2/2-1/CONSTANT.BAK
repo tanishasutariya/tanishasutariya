@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+		const float a=2.14;
+		clrscr();
+		printf("A\t : %.2f\n",a);
+		getch();
+}
